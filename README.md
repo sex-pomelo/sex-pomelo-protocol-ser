@@ -1,6 +1,6 @@
-#pomelo-protocol
+#sex-pomelo-protocol
 
-Encode and decode binary protocol for Pomelo framework.
+Encode and decode binary protocol for Pomelo framework Server( **not use client, only run in node runtime** ). Nodejs version need >= 8.x 
 
 More details about Pomelo Protocol, please refer
 [Pomelo Protocol](https://github.com/NetEase/pomelo/wiki/Pomelo-%E5%8D%8F%E8%AE%AE)
@@ -10,8 +10,9 @@ and
 And the English document would provide later.
 
  * Homepage: <http://pomelo.netease.com/>
- * Mailing list: <https://groups.google.com/group/pomelo>
  * Documentation: <http://github.com/netease/pomelo>
  * Wiki: <https://github.com/netease/netease/wiki/>
- * Issues: <https://github.com/netease/netease/issues/>
  * Tags: game, nodejs,protocol,js,javascript
+
+ ## ChangeLog
+ * 0.1.7, performance opt. Nodejs version need >= 8.x 
