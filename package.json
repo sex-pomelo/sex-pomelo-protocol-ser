@@ -1,6 +1,6 @@
 {
   "name": "@sex-pomelo/sex-pomelo-protocol",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "repository": {
     "type": "git",
     "url": "https://github.com/sex-pomelo/sex-pomelo-protocol-ser"
@@ -8,11 +8,13 @@
   "bugs": {
     "url": "https://github.com/sex-pomelo/sex-pomelo-protocol-ser/issues"
   },
+  "scripts": {
+    "test": "mocha"
+  },
   "private": false,
   "dependencies": {},
   "devDependencies": {
-    "should": ">=0.0.1",
-    "mocha": ">=0.0.1",
-    "jscoverage": ">=0.0.1"
+    "should": "3.3.1",
+    "mocha": "8.1.3"
   }
 }

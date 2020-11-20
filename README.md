@@ -15,4 +15,5 @@ And the English document would provide later.
  * Tags: game, nodejs,protocol,js,javascript
 
  ## ChangeLog
+ * 0.1.8, Improve Package / Message decode performance
  * 0.1.7, performance opt. Nodejs version need >= 8.x 

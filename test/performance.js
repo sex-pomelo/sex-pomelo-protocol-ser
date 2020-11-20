@@ -18,7 +18,7 @@ for( let i=0;i<testCnt;i++ )
     Protocol.strdecode(buf);
 }
 
-console.log('String encode and decode waste time:', (new Date()).valueOf() - sTime  );
+console.log('String  encode and decode waste time:', (new Date()).valueOf() - sTime, 'ms'  );
 
 
 ///////////// Package encode and decode
@@ -30,7 +30,7 @@ for( let i=0;i<testCnt;i++ )
     Package.decode(buf);
 }
 
-console.log('Package encode and decode waste time:', (new Date()).valueOf() - sTime  );
+console.log('Package encode and decode waste time:', (new Date()).valueOf() - sTime, 'ms'  );
 
 
 sTime = (new Date()).valueOf();
@@ -48,5 +48,5 @@ for( let i=0;i<testCnt;i++ )
     Message.decode(buf);
 }
 
-console.log('message encode and decode waste time:', (new Date()).valueOf() - sTime  );
+console.log('message encode and decode waste time:', (new Date()).valueOf() - sTime, 'ms'  );
 
