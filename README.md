@@ -15,5 +15,7 @@ And the English document would provide later.
  * Tags: game, nodejs,protocol,js,javascript
 
  ## ChangeLog
+ * 0.1.9, Opt-in for performance and spec compliance
+   * `npm install --save-optional @sex-pomelo/pomelo-coderx` : Allows to efficiently perform operations for Message.encode
  * 0.1.8, Improve Package / Message decode performance
  * 0.1.7, performance opt. Nodejs version need >= 8.x 
