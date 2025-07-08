@@ -1,4 +1,3 @@
-var should = require('should');
 var Protocol = require('../');
 var Package = Protocol.Package;
 var Message = Protocol.Message;
